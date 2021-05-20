@@ -247,7 +247,7 @@ header {
   margin: 5px 0;
 }
 
-/* Main Nav */
+/* --------------- Main Nav --------------- */
 
 .main-nav {
   float: right;
@@ -277,7 +277,22 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
-/* Sticky Nav */
+/* --------------- Mobile Nav --------------- */
+
+.mobile-nav-icon{
+  float: right;
+  margin-top: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  color: #fff;
+  font-size: 200%;
+}
+
+
+/* --------------- Sticky Nav --------------- */
 .sticky {
   position: fixed;
   top: 0;
@@ -653,3 +668,24 @@ footer p {
 }
 
 /* ---------------- FOOTER-END ---------------- */
+
+/* ---------------- FOR ANIMATION-START ---------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3{
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.js--wp-4{
+  animation-duration: 1s;
+}
+
+.js--wp-1.animated
+.js--wp-2.animated
+.js--wp-3.animated{
+  opacity: 1;
+}
+
+/* ---------------- FOR ANIMATION-END ---------------- */
