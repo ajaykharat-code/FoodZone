@@ -8,7 +8,7 @@ It is fully responsive which looks good on all devices!
 
 ### Visit site here
 ------------------------------------------------------------------------------------------
-[FoodZone](https://iamajaykharat.github.io/FoodZone/)
+[FoodZone](https://ajaykharat-code.github.io/FoodZone/)
 ------------------------------------------------------------------------------------------
 
 
